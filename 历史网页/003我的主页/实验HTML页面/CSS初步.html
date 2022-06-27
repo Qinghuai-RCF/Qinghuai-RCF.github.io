@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建CSS</title>
+    <style type="text/css">/* 文档内嵌样式表 */
+        a {font-size:40px;color:#df8484}/* 对文档中所有a元素起作用 */
+    </style>
+    <link rel="stylesheet" type="text/css" href="h1.css"><!-- 导入外部css -->
+</head>
+<body>
+    <h1>123</h1>
+    无元素内嵌CSS，但是有外置css<a>是的发生</a>
+    <br>
+    有元素内嵌CSS<a style="font-size:40px;color:#ffad2a">是的发生</a><!-- style元素内嵌样式表 font-size字体大小,color颜色,用；隔开 -->   
+    <br>
+    <br>
+    css优先级：元素内嵌>文档内嵌>外部
+</body>
+</html>

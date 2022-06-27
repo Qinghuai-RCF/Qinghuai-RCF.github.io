@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>创建图片</title>
+    </head>
+    <body>
+        <img src="胡嘉逸圆.png">
+        <br>
+        <br>
+        <img src="胡嘉逸圆.png" width="256px" height="100">
+        <br>
+        <br>
+        <img src="胡嘉逸圆1.png" width="256px" alt="下载按钮"><!-- alt备注，当图片文件丢失时显示 -->
+        <br>
+        <br>
+        跳转到百度搜索，整个方形图片范围
+        <a href="https://www.baidu.com" target="_blank">
+            <img src="胡嘉逸圆.png" width="256px">
+        </a>
+        <br>
+        <br>
+        链接位置是红绿颜色的羊毛
+        <br>
+        <img src="我的世界铁路-佳艺科技.png" height="360" usemap="#a"><!-- 加#号在点击区域后会显示一个范围框，不加#不会显示 -->
+        <map name="a">
+            <area href="红色.html" shape="rect" coords="255,162,279,189" target="_blank"><!--rect矩形 coords左边缘，上边缘，右边缘，下边缘 -->
+            <area href="绿色.html" shape="rect" coords="364,160,396,187" target="_blank">
+        </map>
+        <br>
+        <br>
+        获取坐标用的图片
+        <br>
+        <form action="">
+            <input type="image" src="我的世界铁路-佳艺科技.png" height="360"><!-- 通过form获取坐标 -->
+        </form>
+        <br>
+        <br>
+        链接位置是圆的内部
+        <img src="胡嘉逸圆.png" height="256" usemap="#b">
+        <map name="b">
+            <area href="红色.html" shape="circle" coords="128,128,128" target="_blank"><!-- circle圆形区域 coords圆心的x轴位置，圆心的y轴位置，元的半径 -->
+        </map>
+        <br>
+        <br>
+        链接位置是右侧的树
+        <br>
+        <img src="我的世界铁路-佳艺科技.png" height="360" usemap="#c">
+        <map name="c">
+            <area href="红色.html" shape="poly" coords="451,131,480,111,481,102,496,92,495,60,518,41,555,37,566,29,574,123,574,262,548,253,542,189,453,189" target="_blank"><!--poly多边形 coords至少包含六个逗号分割的整数组成，每一对数字各代表多边形的一个顶点。也就是说边数最少为三个 -->
+        </map>
+    </body>
+</html>

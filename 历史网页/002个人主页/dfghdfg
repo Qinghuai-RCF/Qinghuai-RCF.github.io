@@ -1,0 +1,25 @@
+
+		.main_title {dfghdfghdfgh dfg
+			/* position: absolute;绝对位置 */
+			top: 0px;
+			right: 270px; 
+			margin: 20px;  
+			font-size:80px;/* 文字大小 */
+			}
+		.body{border-radius:10px;
+		background-color: #7abfff;
+		width: 200px;
+		margin:0 auto;
+	}	
+		.a {
+			  width: 100px;
+			   /* height: 100px; */
+			   background-color:rgb(210, 230, 243); 
+			   border-radius:10px;
+		}
+		.a:hover{dfghdfghdfghdfg dfg df gh
+			   animation-duration: 1s;/* 动画过渡时间 */
+			   border-radius:10px;
+			background-color: #aab2b9;
+	}
+	

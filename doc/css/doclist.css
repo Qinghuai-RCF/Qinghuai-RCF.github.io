@@ -1,0 +1,458 @@
+﻿.标签间隔 {
+    margin-right: 10px;
+}
+
+/* doc018 */
+.doc018 .文档标题::before {
+    content: 'MD';
+}
+
+.doc018 .编号::before {
+    content: 'doc018';
+}
+
+.doc018 .内容预览::before {
+    content: '.md即markdown文件的基本常用编写语法,是一种快速标记、快速排版语言，现在很多前段项目中的说明文件readme等都是用.md文件编写的，而且很多企业也在在鼓励使用这种编辑方式，特别作为一个前端从业者更要学会使用这种语言。下面就简单和大家分享一些.md基本语法';
+}
+
+.doc018 .标签1::before {
+    content: '教程';
+    margin-right: 10px;
+}
+
+.doc018 .日期::before {
+    content: '2019-9-14 13:13';
+}
+
+.doc018 .图片部分 {
+    background-image: url();
+}
+
+/* doc017 */
+.doc017 .文档标题::before {
+    content: 'HTML';
+}
+
+.doc017 .编号::before {
+    content: 'doc017';
+}
+
+.doc017 .内容预览::before {
+    content: 'HTML简介 实例 <html><body><h1>我的第一个标题</h1><p>我的第一个段落。</p></body></html>';
+}
+
+.doc017 .标签1::before {
+    content: '教程';
+    margin-right: 10px;
+}
+
+.doc017 .日期::before {
+    content: '2019-8-30';
+}
+
+.doc017 .图片部分 {
+    background-image: url();
+}
+
+
+
+
+/* doc016 */
+.doc016 .文档标题::before {
+    content: '台风利奇马';
+}
+
+.doc016 .编号::before {
+    content: 'doc016';
+}
+
+.doc016 .内容预览::before {
+    content: '8月8日的上午，安静的窗外刮起了大风，湛蓝的天空中渐渐聚集起厚厚的云层。不一会，天空就黑了下来。大风穿堂而过，风声呼呼直响。又过了一会儿，天上下起了阵阵雨花，慢慢地，雨越下越大，沙沙声充盈着耳膜，甚至还能够听见震天响的雷鸣。';
+}
+
+.doc016 .标签1::before {
+    content: '作文';
+    margin-right: 10px;
+}
+
+.doc016 .日期::before {
+    content: '2019-8-16';
+}
+
+.doc016 .图片部分 {
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567260894&di=6a61b93eeef2194c86c7ad03f6493343&imgtype=jpg&er=1&src=http%3A%2F%2Fhimg2.huanqiu.com%2Fattachment2010%2F2019%2F0808%2F20190808051848474.jpg);
+}
+
+/* doc015 */
+.doc015 .文档标题::before {
+    content: '游琼台仙谷';
+}
+
+.doc015 .编号::before {
+    content: 'doc015';
+}
+
+.doc015 .内容预览::before {
+    content: '我们6点半起床，出了宾馆大门，就看见2 路车开了过来，我们连饭都来不及吃就上了车。没过几分钟就到了西站，在西站吃过早点，然后坐8路车一直到琼台仙谷脚下。';
+}
+
+.doc015 .标签1::before {
+    content: '美文';
+    margin-right: 10px;
+}
+
+.doc015 .标签2::before {
+    content: '地理作业';
+    margin-right: 10px;
+}
+
+.doc015 .日期::before {
+    content: '2019-8-9';
+}
+
+.doc015 .图片部分 {
+    background-image: url(https://s2.ax1x.com/2019/08/20/mYK8w4.jpg);
+}
+
+/* doc014 */
+.doc014 .文档标题::before {
+    content: '猫生无憾';
+}
+
+.doc014 .编号::before {
+    content: 'doc014';
+}
+
+.doc014 .内容预览::before {
+    content: '森林中的早晨，是安静而又祥和的。初升的太阳是慷慨的，是无私的，她洒下温和的光芒，穿透那密密的枝叶。一束束光线穿过浓密的树冠，在地面上洒下无序而又自然的光斑，星星点点地影映在土地上。清风拂过，树叶随之轻轻地摆动着，发出惬意的沙沙声，光斑也随之移动着。';
+}
+
+.doc014 .标签1::before {
+    content: '作文';
+    margin-right: 10px;
+}
+
+.doc014 .标签2::before {
+    content: '小故事';
+    margin-right: 10px;
+}
+
+.doc014 .日期::before {
+    content: '2019-8-8';
+}
+
+/* doc013 */
+.doc013 .文档标题::before {
+    content: '休渔节庆(非原创)';
+}
+
+.doc013 .编号::before {
+    content: 'doc013';
+}
+
+.doc013 .内容预览::before {
+    content: '7月23日是大暑节，葭沚一年一度的送大暑船活动又一次毫无悬念地为我们呈现了“万人空巷”的情景，来自台州各地的群众不约而同地相聚在葭沚参加这场祈福盛会。';
+}
+
+.doc013 .标签1::before {
+    content: '作文';
+    margin-right: 10px;
+}
+
+.doc013 .标签2::before {
+    content: '非原创';
+    margin-right: 10px;
+}
+
+.doc013 .日期::before {
+    content: '2019-7-31';
+}
+
+/* doc012 */
+.doc012 .文档标题::before {
+    content: '放假前的期盼，学考经历实记';
+}
+
+.doc012 .编号::before {
+    content: 'doc012';
+}
+
+.doc012 .内容预览::before {
+    content: '到了学考的第一天，因为是去北师大附中（北京师范大学台州附属高级中学）考试，所以有点兴奋，还有些期待。和往常一样，每当有事情需要去远一点的地方，学校总会包好多的公交车来接送我们，虽然是我们自己出的钱。';
+}
+
+.doc012 .标签1::before {
+    content: '作文';
+    margin-right: 10px;
+}
+
+.doc012 .标签2::before {
+    content: '学考';
+    margin-right: 10px;
+}
+
+.doc012 .日期::before {
+    content: '2019-7-13';
+}
+
+/* doc011 */
+.doc011 .文档标题::before {
+    content: '别样的研学';
+}
+
+.doc011 .编号::before {
+    content: 'doc011';
+}
+
+.doc011 .内容预览::before {
+    content: '5月24日，这注定是个不平凡的日子。';
+}
+
+.doc011 .标签1::before {
+    content: '作文';
+    margin-right: 10px;
+}
+
+.doc011 .标签2::before {
+    content: '研学';
+    margin-right: 10px;
+}
+
+.doc011 .日期::before {
+    content: '2019-5-29';
+}
+
+/* doc010 */
+.doc010 .文档标题::before {
+    content: '端午日常';
+}
+
+.doc010 .编号::before {
+    content: 'doc010';
+}
+
+.doc010 .内容预览::before {
+    content: '今天又是一年一度的端午节，天气十分的不好，阴晴不定，就像孩子的脸，说变就变，刚刚还阴雨绵绵，现在立马就放了晴。';
+}
+
+.doc010 .标签1::before {
+    content: '作文';
+    margin-right: 10px;
+}
+
+.doc010 .标签2::before {
+    content: '端午';
+    margin-right: 10px;
+}
+
+.doc010 .日期::before {
+    content: '2019-6-9';
+}
+
+/* doc009 */
+.doc009 .文档标题::before {
+    content: '要给自己留有退路';
+}
+
+.doc009 .编号::before {
+    content: 'doc009';
+}
+
+.doc009 .内容预览::before {
+    content: '有人说，有时候，勇敢地斩断自己的退路，我们才能集中精力勇往直前，为自己赢得出路;也有人说，有时候，要给自己留有退路，我们才能走的更稳，更踏实，不把自己逼上绝路。';
+}
+
+.doc009 .标签1::before {
+    content: '作文';
+    margin-right: 10px;
+}
+
+.doc009 .日期::before {
+    content: '2019-5-18';
+}
+
+/* doc008 */
+.doc008 .文档标题::before {
+    content: '学会思考';
+}
+
+.doc008 .编号::before {
+    content: 'doc008';
+}
+
+.doc008 .内容预览::before {
+    content: '常言道：不听老人言，吃亏在眼前。小孩毕竟是小孩，他们不知道世间的险恶。而大人有着丰富的经验，他们知道该怎么去处理发生的一些事情。有的人觉得这是对的，但也有人觉得这是错的。也有人说，有时候，要给自己留有退路，我们才能走的更稳，更踏实，不把自己逼上绝路。';
+}
+
+.doc008 .标签1::before {
+    content: '作文';
+    margin-right: 10px;
+}
+
+.doc008 .日期::before {
+    content: '2019-2-13';
+}
+
+/* doc007 */
+.doc007 .文档标题::before {
+    content: '等待(非原创)';
+}
+
+.doc007 .编号::before {
+    content: 'doc007';
+}
+
+.doc007 .内容预览::before {
+    content: '等待。是我们和时间之间的一场博弈。我们凭借着智慧和耐力。与未来做一个交换。等待的不可知性是一份考验。';
+}
+
+.doc007 .标签1::before {
+    content: '作文';
+    margin-right: 10px;
+}
+
+.doc007 .标签2::before {
+    content: '非原创';
+    margin-right: 10px;
+}
+
+.doc007 .日期::before {
+    content: '2018-12-22';
+}
+
+/* doc006 */
+.doc006 .文档标题::before {
+    content: '随笔2018';
+}
+
+.doc006 .编号::before {
+    content: 'doc006';
+}
+
+.doc006 .内容预览::before {
+    content: '在我们人生的刻度上有多少个时间？屈指可数。而在历史的长河里，十年只是沧海一粟。';
+}
+
+.doc006 .标签1::before {
+    content: '随笔';
+    margin-right: 10px;
+}
+
+.doc006 .日期::before {
+    content: '2018-10-13';
+}
+
+/* doc005 */
+.doc005 .文档标题::before {
+    content: '自信';
+}
+
+.doc005 .编号::before {
+    content: 'doc005';
+}
+
+.doc005 .内容预览::before {
+    content: '我们都知道，美国著名的女作家海伦·凯勒，小的时候因为疾病变成了聋哑人。但是她自信自强，14岁的时候就学会了多种外语，通晓德、法、古罗马、希腊文学。';
+}
+
+.doc005 .标签1::before {
+    content: '作文';
+    margin-right: 10px;
+}
+
+.doc005 .标签2::before {
+    content: '征文';
+    margin-right: 10px;
+}
+
+.doc005 .日期::before {
+    content: '2018-10-4';
+}
+
+/* doc004 */
+.doc004 .文档标题::before {
+    content: '朗读者';
+}
+
+.doc004 .编号::before {
+    content: 'doc004';
+}
+
+.doc004 .内容预览::before {
+    content: '《朗读者》是以个人成长、情感体验、背景故事与传世佳作相结合的方式，选用精美的文字，用最平实的情感读出文字背后的价值，它旨在实现文化感染人，鼓舞人，教育人的传导作用，展现有血有肉的真实人物情感。';
+}
+
+.doc004 .标签1::before {
+    content: '随笔';
+    margin-right: 10px;
+}
+
+.doc004 .日期::before {
+    content: '2018-10-3';
+}
+
+/* doc003 */
+.doc003 .文档标题::before {
+    content: '把握青春';
+}
+
+.doc003 .编号::before {
+    content: 'doc003';
+}
+
+.doc003 .内容预览::before {
+    content: '青春是什么，青春就像光一样温暖闪耀，像水一样清澈透明，像风一样和煦柔软，像歌一样美妙悠扬，像火一样激情四射，像花一样灿烂芬芳。';
+}
+
+.doc003 .标签1::before {
+    content: '作文';
+    margin-right: 10px;
+}
+
+.doc003 .日期::before {
+    content: '2018-9-23';
+}
+
+/* doc002 */
+.doc002 .文档标题::before {
+    content: '外公这辈子';
+}
+
+.doc002 .编号::before {
+    content: 'doc002';
+}
+
+.doc002 .内容预览::before {
+    content: '1978年5月，一篇名为《实践是检验真理的唯一标准》的特约评论员文章，在《光明日报》一版刊发。它掀起了席卷中国的真理标准大讨论，成为那支撬动改革开放的哲学杠杆。这些年来，随着改革开放的不断推进，我们的生活正在得到不断的改善。吃的好了，用的好了，住的好了，生活质量提高了。';
+}
+
+.doc002 .标签1::before {
+    content: '作文';
+    margin-right: 10px;
+}
+
+.doc002 .日期::before {
+    content: '2018-9-15';
+}
+
+/* doc001 */
+.doc001 .文档标题::before {
+    content: '改革开放40年';
+}
+
+.doc001 .编号::before {
+    content: 'doc001';
+}
+
+.doc001 .内容预览::before {
+    content: '1978年5月，一篇名为《实践是检验真理的唯一标准》的特约评论员文章，在《光明日报》一版刊发。它掀起了席卷中国的真理标准大讨论，成为那支撬动改革开放的哲学杠杆。这些年来，随着改革开放的不断推进，我们的生活正在得到不断的改善。吃的好了，用的好了，住的好了，生活质量提高了。';
+}
+
+.doc001 .标签1::before {
+    content: '征文';
+    margin-right: 10px;
+}
+
+.doc001 .日期::before {
+    content: '2018-9-9';
+}

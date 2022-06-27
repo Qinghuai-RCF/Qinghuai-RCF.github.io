@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>div布局</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #head {
+            width: 100%;
+            height: 80px;
+            background-color: rgb(175, 223, 255);
+        }
+
+        #cai-dan {
+            width: 30%;
+            background-color: rgb(255, 218, 138);
+            /* float: left; */
+            /* 浮动,从左到右 */
+            font-size: 30px;
+            /* height: 3411px; */
+            vertical-align: text-top;/* 文字靠上 */
+        }
+
+        #zhu-ti {
+            width: 70%;
+            background-color: rgb(188, 253, 188);
+            /* float: left; */
+            font-size: 30px;
+        }
+
+        #foot {
+            width: 100%;
+            height: 200px;
+            background-color: yellowgreen;
+            clear: both;
+            /* 清除浮动 */
+            text-align: center;
+            font-size: 30px;
+        }
+
+        #wai-kuang {
+            width: 100%;
+        }
+
+        #main {
+            margin: 0 auto;
+            /* 上下为0，左右自动 */
+            width: 1000px;
+        }
+
+        #tou-bu-nei-rong {
+            margin: 0 auto;
+            /* 上下为0，左右自动 */
+            width: 1000px;
+        }
+
+        #da-biao-ti {
+            font-size: 50px;
+            padding-top: 5px;
+        }
+
+        #tu-pian1 {
+            height: 60px;
+        }
+
+        #tu-pian {
+            padding-top: 10px;
+            margin-left: 10px;
+            width: 70px;
+            float: left;
+        }
+
+        .class1 {
+            background-image: url(大神教会.png);
+            background-repeat: round;
+            /* 重复方式round拉伸 */
+            background-attachment: fixed;
+            /* 滚动模式  固定图片 */
+            color: #FFC107;
+            text-shadow: 0 0 20px black;
+        }
+        .class1 a{
+            color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 0px;
+        }
+
+        table td {
+            /* border:0; */
+            padding: 0px;
+        }
+
+        table th{
+            padding: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wai-kuang">
+        <div id="head">
+            <div id="tou-bu-nei-rong">
+                <div id="tu-pian"><img id="tu-pian1" src="../图片图标\情怀~若春风头像透明.png" alt=""></div>
+                <div id="da-biao-ti"><b>情怀~若春风</b></div>
+            </div>
+        </div>
+        <div id="main">
+            <table>
+                <tr>
+                    <td id="cai-dan">
+                        <div>菜单</div>
+                        <style>
+                            /* slickButton */ 
+                            .点击按钮{
+                                color: white;
+                                font-weight: bold;
+                                padding: 10px;
+                                border: solid 1px black;
+                                background: lightgreen;
+                                cursor: pointer;
+                                transition: background 0.5s;
+                                -webkit-transition: background 0.5s;
+                            }
+                             
+                            .点击按钮:hover {
+                                color: black;
+                                background: yellow;
+                            }
+                            </style>
+                             
+                            <button class="点击按钮">按钮</button>
+                    </td>
+                    <td id="zhu-ti">
+                        <div class="class1">
+                            <table align="center">
+                                <!-- 利用表格居中显示 -->
+                                <tr>
+                                    <th>
+                                        <h1 align="center">大神教会</h1> <!-- 大标题 -->
+                                        <br>
+                                        <img src="大神教会.png" width="270" align="center"><!-- 插入图片，width限制大小 -->
+                                        <br>
+                                        <br>
+                                        <a href="../主页.html">返回</a>
+                                        <br>
+                                        <br>
+                                        HTML基础知识
+                                        <br>
+                                        <a href="https://www.bilibili.com" target="_blank">跳转到哔哩哔哩_新建标签</a><!-- 新建标签 -->
+                                        <br>
+                                        <br>
+                                        <a href="https://www.bilibili.com">跳转到哔哩哔哩_不新建标签</a><!-- 不新建标签 -->
+                                        <br>
+                                        <br>
+                                        <a href="表格.html" target="_blank">创建表格</a>
+                                        <br>
+                                        <br>
+                                        <a href="表单.html" target="_blank">创建表单</a>
+                                        <br>
+                                        <br>
+                                        <a href="表单2.html" target="_blank">创建表单2</a>
+                                        <br>
+                                        <br>
+                                        <a href="表单3.html" target="_blank">创建表单3</a>
+                                        <br>
+                                        <br>
+                                        <a href="图片.html" target="_blank">图片</a>
+                                        <br>
+                                        <br>
+                                        <a href="视频.html" target="_blank">视频（极易造成显卡崩溃）</a>
+                                        <br>
+                                        <br>
+                                        CSS
+                                        <br>
+                                        <br>
+                                        <a href="CSS初步.html" target="_blank">CSS初步</a>
+                                        <br>
+                                        <br>
+                                        <a href="CSS选择器.html" target="_blank">CSS选择器</a>
+                                        <br>
+                                        <br>
+                                        <a href="创建边框和背景.html" target="_blank">创建边框和背景</a>
+                                        <br>
+                                        <br>
+                                        <a href="文本.html" target="_blank">创建文本样式</a>
+                                        <br>
+                                        <br>
+                                        <a href="文本2.html" target="_blank">创建文本样式2</a>
+                                        <br>
+                                        <br>
+                                        <a href="过渡.html" target="_blank">创建文本过渡</a>
+                                        <br>
+                                        <br>
+                                        <a href="动画.html" target="_blank">创建动画</a>
+                                        <br>
+                                        <br>
+                                        <a href="变换.html" target="_blank">使用变换</a>
+                                        <br>
+                                        <br>
+                                        <a href="CSS实例.html" target="_blank">情怀~若春风宣传页_方案1</a>
+                                        <br>
+                                        <br>
+                                        <a href="CSS实例2.html" target="_blank">情怀~若春风宣传页_方案2</a>
+                                        <br>
+                                        <br>
+                                        <a href="盒子.html" target="_blank">创建盒子模型</a>
+                                        <br>
+                                        <br>
+                                        JavaScript
+                                        <br>
+                                        <br>
+                                        <a href="JavaScript.html" target="_blank">JavaScript</a>
+                                        <br>
+                                        <br>
+                                        <a href="变量.html" target="_blank">创建变量</a>
+                                        <br>
+                                        <br>
+                                        <a href="变量使用.html" target="_blank">变量使用方法</a>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        闲着没事干
+                                        <br>
+                                        <a href="答案.html" target="_blank">政治答案</a>
+                                        <br><!-- 换行 -->
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <b>粗体</b><!-- 粗体 -->
+                                        <br>
+                                        <br>
+                                        <em>斜体</em><!-- 斜体 -->
+                                        <br>
+                                        <br>
+                                        <u>下划线</u><!-- 下划线 -->
+                                        <br>
+                                        <br>
+                                        <s>删除线</s><!-- 删除线 -->
+                                        <h1 align="center">综合实践</h1>
+                                        <b>【星月教你做网站】</b>
+                                        <br>
+                                        HTML5+CSS+JS<em>全方面解析</em>，<s>附上节课回顾word文档帮助记忆</s>，最新<u>最全</u>的HTML5教程—
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div id="foot">这是我做的最像样的一个主页了</div>
+        </div>
+    </div>
+</body>
+
+</html>

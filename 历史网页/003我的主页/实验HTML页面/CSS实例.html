@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>情怀~若春风宣传页</title>
+    <style type="text/css">
+        .div {
+            text-align: center;/* 文字对齐：中心 */
+        }
+        .img {
+            width: 492px;
+            height: 492px;
+            margin-top: 130px/* 上方余量 */
+        }
+        html:hover .img {/* 当鼠标置于网页上方，.img发生变化 */
+            animation-name: img;
+            animation-delay: 500ms;
+            animation-duration: 1s;/* 动画持续时间 */
+            animation-fill-mode: forwards;/* 动画填充模式：前进（停在最后一帧） */
+        }
+        @keyframes img {
+            to {
+                width: 100px;
+                height: 100px;
+                margin-top: 0px;
+            }
+        }
+        p {
+            font-family: 微软雅黑;
+            font-size: 40px;           
+            text-shadow: 3px 3px 2px rgb(83, 83, 83);
+            opacity: 1;/* 不透明度:不透明 */
+        }
+        html:hover p {
+            transition-delay:500ms; /* 过渡延迟 */
+            transition-duration: 1s;/* 过渡持续时间 */
+            font-size: 10px;
+            font-family: 微软雅黑;
+            text-shadow: 3px 3px 2px rgb(83, 83, 83);
+            opacity: 0;/* 不透明度：透明 */
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <img src="情怀~若春风头像透明.png" alt="情怀~若春风头像" class="img">
+        <p>情怀~若春风</p>
+    </div>
+</body>
+</html>

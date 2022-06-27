@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>情怀~若春风</title>
+    <style>
+        #touxiang {
+            width: 492px;/* 定义图片默认大小，否则动画初始大小会没有 */
+            height: 492px;
+            margin-top: 130px;/* 上方余量 */
+            }
+        html:hover #touxiang {/* 当鼠标置于网页上方，#touxiang发生变化 */
+            transition-delay: 500ms;/* 启动延时 */
+            transition-duration: 0.75s;/* 变化时间 */
+            width: 100px;/* 变化后的大小 */
+            height: 100px;
+            margin-top: 0px;/* 离顶部距离 */
+            }   
+        #right {/* 设置右div的绝对位置 */
+            position: absolute;/* 绝对位置 */
+            top: 0px;
+            right: 200px; 
+            margin: 20px;
+            color:white
+            }
+        #left {/* 设置左div的绝对位置 */
+            position: absolute;
+            top: 0px;
+            left: 200px;
+            margin: 20px;
+            color:white
+            }
+        #middle {
+            text-align: center;/* 居中显示 */
+            }
+        #top {
+            position:absolute;
+            background-color: rgb(99, 151, 248);
+            left:0px;
+            top:0px;
+            right: 0px;
+            margin-top: 0px;
+            height: 100px;
+            border-bottom: 5px;
+            z-index: -1;/* 层叠：至于底层 */;
+        }
+        #id {
+            text-align:center;
+            font-size: 60px;
+            font-family: 楷体;
+            text-shadow: 5px 5px 3px rgb(138, 138, 138);
+            opacity: 1;
+            
+        }
+        html:hover #id {
+            opacity: 0;
+            transition-delay: 500ms;/* 启动延时 */
+            transition-duration: 0.5s;/* 变化时间 */
+        } 
+    </style>
+</head>
+<body>
+    <div style="z-index:1">
+        <p id="top"></p>
+    </div>
+    <div id="left">
+        <p>壁纸</p>
+     </div>    
+    <div id="middle" style="z-index:2">
+        <img src="图片\情怀~若春风头像透明.png" alt="情怀若春风头像" id="touxiang">
+    </div> 
+    <div id="id">
+        <br>
+        <b>情怀~若春风</b>
+    </div>
+    <div id="right">
+        <p>视频</p>                        
+    </div>
+</body>
+</html>

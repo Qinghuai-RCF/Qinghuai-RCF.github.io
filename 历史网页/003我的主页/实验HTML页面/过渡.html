@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>创建文本过渡</title>
+    <style type="text/css">
+        p {
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        p:hover{
+            width: 200px;
+            height: 200px;
+            transition-timing-function: ease-in;/* 变化先慢后快，先快后慢等速度效果 */
+            background-color: coral;
+            /* transition-delay:150ms; 延迟 */
+            transition-duration:1500ms;/* 颜色长宽渐渐过渡,时间  */
+            /* -webkit-transition-duration: 500ms;使旧版谷歌，苹果浏览器运行此代码需配合transition-duration使用 */
+            /* -o-transition-duration: 500ms;使旧版欧朋浏览器运行此代码  */
+            /* -moz-transition-duration: 500ms;使旧版火狐浏览器运行此代码  */
+            /* -ms-transition-duration: 500ms;使旧版IE浏览器运行此代码 */
+            /* transition-property:background-color;单独的某一项渐变，可写background-color，width等 */
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+</body>
+</html>

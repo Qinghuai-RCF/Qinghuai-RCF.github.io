@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>使用变换</title>
+    <style>
+        p {
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        p:hover {
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            transform: rotate(45deg);/* 变换：顺时针旋转（多少度） */
+            /* transform:scale(1.5);变换：比例（倍数） */
+            /* transform:scaleY(1.5)；变换：Y轴比例（倍数） */
+            transform-origin: top right;/* 变换起源：右上角 (也可输入坐标)*/
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+</body>
+</html>

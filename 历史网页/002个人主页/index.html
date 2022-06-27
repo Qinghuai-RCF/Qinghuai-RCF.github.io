@@ -1,0 +1,105 @@
+<html class="no-js"><!--<![endif]--><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>我的个人主页</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="">
+	<style>
+		.main_title {
+			/* position: absolute;绝对位置 */
+			top: 0px;
+			right: 270px; 
+			margin: 20px;  
+			font-size:80px;/* 文字大小 */
+			}
+		.body{border-radius:10px;
+		background-color: #7abfff;
+		width: 200px;
+		margin:0 auto;
+	}	
+		.a {
+			  width: 100px;
+			   /* height: 100px; */
+			   background-color:rgb(210, 230, 243); 
+			   border-radius:10px;
+		}
+		.a:hover{
+			   animation-duration: 1s;/* 动画过渡时间 */
+			   border-radius:10px;
+			background-color: #aab2b9;
+	}
+	</style>
+</head>
+<body>
+	<!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<div class="main_title" align="center">
+		<img src="img\情怀~若春风头像透明.png" alt="头像" height="100px" width="100px">
+		<b>情怀~若春风</b>
+	</div>
+	<div class="body" style="
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+height: auto;
+width: 100px;
+">
+		<div class="a" align="center" style="
+margin-bottom: 10px;
+/* text-shadow: 0 0 0px black; */
+/* color: #f71b1b; */
+/* background-color: #f16b6b; */
+"> 
+			
+			<a href="D:\User files\Desktop\个人主页\用户名密码.xlsx" target="_self" style="color: #0160b9;
+"></A>
+网页制作教程</a>
+		</div>
+		<div class="a" align="center"> 
+			
+			<a href="用户名密码.html" style="
+color: #0160b9;
+">用户名密码</a>
+		</div>
+	</div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+// <![CDATA[  <-- For SVG support
+if ('WebSocket' in window) {
+	(function () {
+		function refreshCSS() {
+			var sheets = [].slice.call(document.getElementsByTagName("link"));
+			var head = document.getElementsByTagName("head")[0];
+			for (var i = 0; i < sheets.length; ++i) {
+				var elem = sheets[i];
+				head.removeChild(elem);
+				var rel = elem.rel;
+				if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+					var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+					elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+				}
+				head.appendChild(elem);
+			}
+		}
+		var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+		var address = protocol + window.location.host + window.location.pathname + '/ws';
+		var socket = new WebSocket(address);
+		socket.onmessage = function (msg) {
+			if (msg.data == 'reload') window.location.reload();
+			else if (msg.data == 'refreshcss') refreshCSS();
+		};
+		if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+			console.log('Live reload enabled.');
+			sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+		}
+	})();
+}
+else {
+	console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+}
+// ]]>
+</script>
+</body></html>

@@ -1,0 +1,9 @@
+p{
+    text-indent:50px;/* 空两格 ，需随字体大小调整,大小应为字体大小的两倍*/
+    font-size: 25px;
+}
+
+.作文日期{
+    text-align: right;
+    margin-top: 30px;
+}

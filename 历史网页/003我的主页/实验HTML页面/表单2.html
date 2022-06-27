@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>创建表单2</title>
+	</head>
+	<body>
+        <form>
+            表单按钮<input type="button" value="按钮">
+            <br>
+            <br>
+            按钮<button>按钮</button>
+            <br>
+            <br>
+            提交<input type="submit" value="提交">
+            <br>
+            <br>
+            滑块<input type="range" min="-100" max="100"> <!--滑块-->
+            <br>
+            <br>
+            有间隔的滑块<input type="range" min="-100" max="100" step="50"> <!--step间隔大小-->
+            <br>
+            <br>
+            有间隔的滑块，有默认位置<input type="range" min="-100" max="100" step="50" value="-100"> <!--value默认位置-->
+            <br>
+            <br>
+            有限制的数字输入框<input type="number" min="-100" max="100" step="50" value="0"> <!--有限制的数字输入框-->
+            <br>
+            <br>
+            <input type="checkbox">选择
+            <br>
+            <br>
+            几选一
+            <br>
+            <input type="radio" name="a">1231<!--要保持同一个问题的选项name相同-->
+            <input type="radio" name="a">123123
+            <input type="radio" name="a">123123123 
+            <br>
+            <br>
+            几选一，含默认选项
+            <br>
+            <input type="radio" name="a" checked>1231<!--要保持同一个问题的选项name相同，checked被选中 -->
+            <input type="radio" name="a">123123
+            <input type="radio" name="a">123123123
+            <br>
+            <br>
+            你最喜欢的水果是什么？
+            <br>
+            <select><!--选择框-->
+                <option>香蕉</option>
+                <option>苹果</option>
+                <option>菠萝</option>
+            </select>
+            <br>
+            <br>
+            可输入多选
+            <br>
+            <input list="a"><!--input list配合数据列表使用，既可输入，又可选择-->
+            <datalist id="a">
+                <option>香蕉</option>
+                <option>苹果</option>
+                <option>菠萝</option>
+            </datalist>
+        </form>
+	</body>
+</html>

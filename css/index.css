@@ -1,0 +1,185 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+
+
+/* top_bar begin */
+
+.top_bar{
+    position: relative;
+    margin-top: 25px;
+	z-index: 2;
+    /* background-color: aqua */
+}
+
+.top_bar_container{
+    margin: auto;
+    width: 950px;
+}
+
+.dh{
+    font-size: 22px;
+    margin-right: 50px;
+}
+
+.dh1{
+    /* margin-right: 10px; */
+    padding: 0 2em;
+    color: black;
+    text-decoration: none;
+}
+
+.dh2:hover{
+	background-color: #d4d4d4;
+}
+
+/* top_bar end */
+
+
+
+
+.功能外框 {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    left: 0;
+    top: -60px;
+	z-index: 1;
+	height: 0;
+}
+
+.头像{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    border-radius: 25px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.功能选项 {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+    background-color: white;
+    z-index: 1;
+    transition: 0.2s;
+    overflow: hidden;
+    box-shadow: 0 0 10px gray;
+}
+
+/* .功能选项:hover {
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    right: 10px;
+    top: 10px;
+    width: 300px;
+    height: 160px;
+    transition: 0.2s;
+} */
+
+.昵称 {
+    position: absolute;
+    right: 144px;
+    top: 15px;
+    font-size: 25px;
+}
+
+.功能 {
+    width: 75px;
+    float: left;
+    /* margin-bottom: 10px;
+    border-radius: 20px; */
+    /* color: rgb(210, 228, 255); */
+}
+
+.标题 {
+    bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+
+.图标 {
+    margin-top: 10px;
+    margin-left: calc((75px - 30px) / 2);
+    margin-right: calc((75px - 30px) / 2);
+    width: 30px;
+    height: 30px;
+    font-size: 40px;
+    line-height: 75px;
+    color: white;
+}
+
+.apps {
+    position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(50vh - 78px * 2 - 50px);
+	width: calc(120px * 8);
+	height: calc(156px * 2);
+    z-index: 3;
+    top:-60px;
+}
+
+.app {
+    position: relative;
+    top: 0px;
+    float: left;
+    width: 100px;
+    /* height: 156px; */
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    color: black;
+}
+
+.app:hover {
+    position: relative;
+    box-shadow: 0 10px 25px lightgray;
+    transition: 0.2s;
+    top: -3px;
+}
+
+.app-logo {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.app-name {
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    /* vertical-align: middle; */
+}

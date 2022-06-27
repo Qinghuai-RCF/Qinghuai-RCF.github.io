@@ -1,0 +1,221 @@
+body {
+    box-sizing: border-box;
+    padding: 30px;
+	
+	text-size-adjust: 100%;
+    color: rgb(36, 41, 46);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+}
+
+body::before {
+    content: "";
+    display: table;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body > :first-child {
+    margin-top: 0px !important;
+}
+
+body h1, body h2 {
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid rgb(234, 236, 239);
+}
+
+body h1 {
+    font-size: 2em;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+body h1, body h2 {
+    font-weight: 600;
+}
+
+body h1 {
+    font-size: 32px;
+}	
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+body h1 {
+    font-size: 2em;
+    margin: 0.67em 0px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+body blockquote, body dl, body ol, body p, body pre, body table, body ul {
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+body .highlight pre, body pre {
+    background-color: rgb(246, 248, 250);
+    font-size: 85%;
+    line-height: 1.45;
+    border-radius: 3px;
+    overflow: auto;
+    padding: 16px;
+}
+
+body h2 {
+    font-size: 1.5em;
+}
+body h3 {
+    font-size: 1.25em;
+}
+
+body h3, body h4 {
+    font-weight: 600;
+}
+
+body h3 {
+    font-size: 20px;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+body h5 {
+    font-size: 0.875em;
+}
+
+body h5, body h6 {
+    font-weight: 600;
+}
+
+body h5 {
+    font-size: 14px;
+}
+
+body h6 {
+    color: rgb(106, 115, 125);
+    font-size: 0.85em;
+}
+body h6 {
+    font-size: 12px;
+}
+body ol, body ul {
+    padding-left: 2em;
+}
+body blockquote, body dl, body ol, body p, body pre, body table, body ul {
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+body ol, body ul {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+body pre code {
+    background-color: transparent;
+    display: inline;
+    line-height: inherit;
+    overflow-wrap: normal;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 0px;
+    overflow: visible;
+    padding: 0px;
+}
+body pre > code {
+    font-size: 100%;
+    white-space: pre;
+    word-break: normal;
+    background: transparent;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 0px;
+    padding: 0px;
+}
+body code {
+    background-color: rgba(27, 31, 35, 0.05);
+    font-size: 85%;
+    border-radius: 3px;
+    margin: 0px;
+    padding: 0.2em 0.4em;
+}
+body code, body pre {
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 12px;
+}
+body code, body kbd, body pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+body blockquote {
+    color: rgb(106, 115, 125);
+    border-left: 0.25em solid rgb(223, 226, 229);
+    padding: 0px 1em;
+}
+body blockquote, body dl, body ol, body p, body pre, body table, body ul {
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+body blockquote {
+    margin: 0px;
+}
+body table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+}
+body blockquote, body dl, body ol, body p, body pre, body table, body ul {
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+body table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+body table tr {
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(198, 203, 209);
+}
+body table tr {
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(198, 203, 209);
+}
+body table tr:nth-child(2n) {
+    background-color: rgb(246, 248, 250);
+}

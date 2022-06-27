@@ -1,0 +1,69 @@
+
+
+
+
+
+
+.app {
+    position: relative;
+    top: 0px;
+    float: left;
+    width: 100px;
+    /* height: 156px; */
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    color: black;
+}
+
+.app:hover {
+    position: relative;
+    box-shadow: 0 10px 25px lightgray;
+    transition: 0.2s;
+    top: -3px;
+}
+
+.app-logo {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.app-name {
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    /* vertical-align: middle; */
+}
+
+.input {
+    height: 36px;
+    width: 504px;
+}
+
+.search {
+    height: 42px;
+}
+
+.search1 {
+    /* float: left; */
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #00a1d6;
+    color: #fff;
+    border: 1px solid #008cd2;
+    display: inline-block;
+    
+    border-radius: 0 4px 4px 0;
+    user-select: none;
+}
+
+.网址导航 {
+    margin-top: 50px;
+}

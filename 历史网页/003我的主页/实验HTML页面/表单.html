@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>创建表单</title>
+	</head>
+	<body>
+		<form><!-- <form>和</form>里面包含的数据将被提交到服务器或者电子邮件里。 -->
+			普通<input><!-- 单行文本框、普通输入框，默认type为text -->
+			<br>
+			<br>
+			数字<input type="number"><!-- 只能写数字 -->
+			<br>
+			<br>
+			占位<input value="占位字"><!-- value写占位置的字 -->
+			<br>
+			<br>
+			显示<input placeholder="请输入"><!-- 框内显示，不占位 -->
+			<br>
+			<br>
+			限制<input placeholder="请输入" maxlength="8"><!-- 限制输入字符数 -->
+			<br>
+			<br>
+			长度<input placeholder="请输入" size="25"><!-- size输入框长度，需要几个字符可以填满 -->
+			<br>
+			<br>
+			只读<input value="不能输入" readonly><!-- 只读，不能输入 -->
+			<br>
+			<br>
+			密码<input type="password" placeholder="请输入密码"><!-- 隐藏输入的字符 -->
+			<br>
+			<br>
+			<textarea rows="20">345634563456</textarea><!-- rows行数、textarea多行文本框 -->
+			<br>
+			<br>
+			<textarea cols="25">345634563456</textarea><!-- cols列数 -->
+		</form>
+	</body>
+</html>

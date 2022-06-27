@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>创建CSS选择器</title>
+    <style>
+        * {font-size: 50px;color:#5c5d63}/*所有元素 */
+        .class1 {font-size: 50px;color:#66ccff}/* .引导class类 */
+        #class1 {font-size: 50px;color:#d4db74}/* #引导id */
+        a {font-size: 50px;color:#7484db}
+        [href] {font-size: 50px;color:#f700ff}/* []引导属性 */
+        [href="红色.html"] {font-size: 50px;color:#8d0101}/* 其他选择器 */
+        a:hover {font-size: 50px;color:#000000}/* :冒号选择器（伪类），hover鼠标经过 */
+    </style>
+</head>
+<body>
+    <a class="class1" id="class1">情怀~若春风</a>
+    <br>
+    <p class="class1">情怀~若春风</p>
+    <br>
+    <h1>情怀~若春风</h1>
+    <a id="class1">情怀~若春风</a>
+    <br>
+    <p id="class1" class="class1">情怀~若春风</p>
+    <br>
+    <br>
+    <a class="class1" id="class1">情怀~若春风</a>
+    <br>
+    <a class="class1" >情怀~若春风</a>
+    <br>
+    <a>情怀~若春风</a>
+    <br>
+    <br>
+    <a href="红色.html">情怀~若春风</a>
+    <br>
+    <a>情怀~若春风</a>
+    <br>
+    <br>
+    <a href="红色.html">情怀~若春风</a>
+    <br>
+    <a href="绿色.html">情怀~若春风</a>
+    <br>
+    <br>
+    <img src="CSS基本选择器.png" width="1000">
+    <img src="ID与class.png" width="1000">
+    选择器优先级：id>class>带具体值的属性>属性>标签>所有元素
+    <br>
+    冒号选择器对已有id的不起作用，class名不能数字开头
+    <br>
+    不建议重复出现相同的id
+</body>
+</html>

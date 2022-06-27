@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>创建表格</title>
+	</head>
+	<body>
+		<table border="1px" align="center"><!-- table表格边框、border表格宽度、align="center"表格居中 -->
+		<thead><!-- 表头 -->
+			<tr><!-- 一行 -->
+				<th>用户名</th><!-- th标题，列，加粗，居中 -->
+				<th>性别</th>
+				<th>密码</th>
+			</tr>
+		</thead>
+		<tbody><!-- 表身、表的内容 -->
+			<tr>
+				<td>Admin</td><!-- 一列，普通 -->
+				<td>男</td>
+				<td>123</td>
+			</tr>	
+			<tr>
+				<td>靠谱学院</td>
+				<td>男</td>
+				<td>123</td>
+			</tr>	
+		</tbody>
+		<tfoot><!-- 表脚 -->
+			<td>用户名</td>
+			<td>性别</td>
+			<td>密码</td>
+		</tfoot>
+		</table>
+		<br>
+		<br>
+		<table border="1" align="center">
+			<tr>
+				<th rowspan="2">aaaa</th><!-- 向下合并单元格 -->
+				<th>aaaa</th>
+				<th>aaaa</th>
+				<th>aaaa</th>
+			</tr>
+			<tr>
+				<td colspan="2">aaaa</td><!-- 向右合并单元格 -->
+				<td>aaaa</td>
+			</tr>
+			<tr>
+				<td>aaaa</td>
+				<td>aaaa</td>
+				<td colspan="2">aaaa</td>
+			</tr>
+		</table>
+	</body>
+</html>

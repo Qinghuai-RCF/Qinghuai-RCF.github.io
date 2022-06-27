@@ -1,144 +1,200 @@
-<html>
+<html lang="cn">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta lang="cn" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>情怀~若春风</title>
-	<link rel="stylesheet" href="../Font-Awesome图标/css/font-awesome.min.css" /><!-- Font-Awesome图标链接 -->
-	<style>
-		* {
-			margin: 0px;
-			padding: 0px;
-		}
-
-		.顶部背景图 {
-			/* background-color: rgb(98, 179, 255); */
-			background-image: url(https://s2.ax1x.com/2019/08/20/mGDnkq.png);
-			background-size:cover;
-			width: 100%;
-			height: 180px;
-			box-shadow: 0 0 4px black;
-			text-align: center;
-		}
-
-		.头像 {
-			margin-top: 20px;
-			width: 100px;
-			height: 100px;
-			box-shadow: 0px 0px 4px black;
-			border-radius: 50px;
-		}
-
-		.容器 {
-			text-align: center;
-		}
-
-		.主体 {
-			text-align: center;
-			width: 98%;
-			max-width: 460px;
-			margin: 10px auto;
-			height: 50%;
-		}
-
-		.功能容器 {
-			padding-left: 2%;
-			float: left;
-		}
-
-		.昵称 {
-			font-size: 33px;
-			color: white;
-		}
-
-		.主体 .功能 {
-			height: 170px;
-			width: 48%;
-			background: linear-gradient(to right, rgb(0, 135, 224), rgb(127, 38, 243));
-			float: left;
-			margin-right: 2%;
-			margin-bottom: 10px;
-			border-radius: 20px;
-			box-shadow: 0 2px 4px rgb(128, 128, 128);
-			color: rgb(210, 228, 255);
-		}
-
-		.底部 {
-			background: #f6f8fa;
-			text-align: center;
-			height: 5%;
-			padding-top: 8px;
-			margin-top: 10px;
-			box-shadow: 0 -2px 4px lightgray;
-			float: left;
-			width: 100%;
-			/* position: absolute; */
-			/* bottom: 0; */
-		}
-
-		.标题 {
-			background-color: rgba(255, 255, 255, 0.651);
-			bottom: 0px;
-			margin-top: 9px;
-			width: 133px;
-			margin-left: auto;
-			margin-right: auto;
-			border-radius: 20px;
-			font-size: 26px;
-			color: rgb(93, 65, 253);
-		}
-
-		.图标 {
-			margin-top: 26px;
-			font-size: 88px;
-		}
-	</style>
+    <title>春风导航</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 600px)" href="css/index_m.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 601px)" href="css/index.css" />
+    <script src="js/index.js"></script>
 </head>
 
-<body>
-	<!-- ↓ 顶部背景图片，中间头像，头像下面是昵称 -->
-	<div class="顶部背景图">
-		<div class="容器">
-			<img class="头像" src="https://s2.ax1x.com/2019/08/20/mGRfXV.png" alt="头像" />
-		</div>
-		<div class="昵称">情怀~若春风</div>
-	</div>
-	<div class="主体">
-		<div class="功能容器">
-			<a href="网址导航/index.html">
-				<div class="功能"><i class="图标 fa fa-th-list"></i>
-					<div class="标题">网址导航</div>
-				</div>
-			</a>
-			<a href="文章/index.html">
-				<div class="功能"><i class="图标 fa fa-file-text"></i>
-					<div class="标题">文章</div>
-				</div>
-			</a>
-			<a href="图片/index.html">
-				<div class="功能"><i class="图标 fa fa-file-picture-o"></i>
-					<div class="标题">图片</div>
-				</div>
-			</a>
-			<a href="https://space.bilibili.com/35171443">
-				<div class="功能"><i class="图标 fa fa-video-camera"></i>
-					<div class="标题">视频</div>
-				</div>
-			</a>
-			<a href="https://music.163.com/#/user/home?id=136536925">
-				<div class="功能"><i class="图标 fa fa-music"></i>
-					<div class="标题">音乐</div>
-				</div>
-			</a>
-		</div>
-		<div style="text-align: center;float: left;width: 100%;">
-			<a href="旧版主页选择界面.html">旧版主页选择界面入口</a>
-		</div>
-	</div>
-	<div class="底部">
-		<h3>情怀~若春风 2019</h3>
-	</div>
+<body onload=hide()>
+    <div class="bg" onclick="show(2)"></div>
+    <div class="top_bar">
+        <div class="top_bar_container">
+            <span class="dh">春风导航</span>
+			<span class="dh2"><a href="index.html" class="dh1">导航</a></span>
+            <span class="dh2"><a href="doc/index.html" class="dh1">文章</a></span>
+            
+
+
+            <div class="功能外框">
+                <img class="头像" id="头像1" name="头像" onclick="show(1)" src="https://s2.ax1x.com/2019/08/20/mGRfXV.png"
+                    alt="头像" />
+                <img class="头像" id="头像2" name="头像" onclick="show(2)" src="https://s2.ax1x.com/2019/08/20/mGRfXV.png"
+                    alt="头像" />
+
+                <div class="功能选项" id="功能选项">
+                    <div class="昵称">情怀~若春风</div>
+                    <a href="doc">
+                        <div class="功能">
+                            <img class="图标" src="https://s2.ax1x.com/2019/08/29/mLAmTA.png" alt="">
+                            <div class="标题">文章</div>
+                        </div>
+                    </a>
+                    <a href="https://d.wps.cn/index.html#folderid=0">
+                        <div class="功能">
+                            <img class="图标" src="https://d.wps.cn/favicon.ico" alt="">
+                            <div class="标题">写得</div>
+                        </div>
+                    </a>
+
+                    <a href="https://imgchr.com/qinghuai_rcf/albums">
+                        <div class="功能">
+                            <img class="图标"
+                                src="https://imgchr.com/content/images/system/favicon_1504864365236_deb864.png" alt="">
+                            <div class="标题">图片</div>
+                        </div>
+                    </a>
+                    <a href="https://space.bilibili.com/35171443">
+                        <div class="功能">
+                            <img class="图标" src="https://space.bilibili.com/favicon.ico" alt="">
+                            <div class="标题">视频</div>
+                        </div>
+                    </a>
+                    <a href="https://music.163.com/#/user/home?id=136536925">
+                        <div class="功能">
+                            <img class="图标" src="https://s1.music.126.net/style/favicon.ico?v20180823" alt="">
+                            <div class="标题">音乐</div>
+                        </div>
+                    </a>
+                    <a href="https://gitee.com/">
+                        <div class="功能">
+                            <img class="图标" src="https://gitee.com/favicon.ico" alt="">
+                            <div class="标题">代码库</div>
+                        </div>
+                    </a>
+                    <a
+                        href="https://user.qzone.qq.com/1628111725?ADUIN=1628111725&ADSESSION=1566259061&ADTAG=CLIENT.QQ.5647_MyTip.0&ADPUBNO=26922&source=namecardhoverstar">
+                        <div class="功能">
+                            <img class="图标" src="https://qzonestyle.gtimg.cn/qzone/v8/img/Qzone.svg" alt="">
+                            <div class="标题">QQ空间</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="apps">
+            <a href="http://www.bilibili.com/">
+                <div class="app">
+                    <img class="app-logo" src="https://s2.ax1x.com/2019/08/26/mfIR74.png" alt="图片加载失败">
+                    <div class="app-name">哔哩哔哩</div>
+                </div>
+            </a>
+            <a href="https://translate.google.cn/?hl=zh-CN&tab=TT">
+                <div class="app">
+                    <img class="app-logo" src="https://s2.ax1x.com/2019/08/26/mfI2BF.png" alt="图片加载失败">
+                    <div class="app-name">谷歌翻译</div>
+                </div>
+            </a>
+            <a href="https://win10.ithome.com/">
+                <div class="app">
+                    <img class="app-logo" src="https://s2.ax1x.com/2019/08/26/mfIfAJ.png" alt="图片加载失败">
+                    <div class="app-name">Win10之家</div>
+                </div>
+            </a>
+            <a href="https://music.163.com/">
+                <div class="app">
+                    <img class="app-logo" src="https://s2.ax1x.com/2019/08/29/mLi1lF.png" alt="图片加载失败">
+                    <div class="app-name">网易云音乐</div>
+                </div>
+            </a>
+            <a href="D:\User_files\Files\Projects\自制网站\动漫导航\Home.html">
+                <div class="app">
+                    <img class="app-logo" src="" alt="图片加载失败">
+                    <div class="app-name">动漫导航</div>
+                </div>
+            </a>
+
+
+
+            <!--
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+                <div href="">
+                    <div class="app">
+                        <div class="app-logo" src="" alt="图片加载失败"></div>
+                        <div class="app-name"></div>
+                    </div>
+                </div>
+-->
+
+        </div>
+    </div>
 </body>
 
 </html>

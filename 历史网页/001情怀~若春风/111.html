@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="gb2312">
+<head><title>css布局：三列</title>
+<link rel="stylesheet" href="111.css" type="text/css" media="all" />
+<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+<meta name="robots" content="all" />
+<meta name="author" content="Owen Briggs:www.w3cn.org" />
+
+</head>
+<body>
+
+<div id="left">
+
+<p>left</p>
+
+</div>
+
+<div id="middle">
+
+<pre>
+#left {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 20px;
+	padding: 10px;
+	border: 5px solid #666;
+	background: #FFF;
+	width: 150px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 120px;
+	}
+html>body #left {
+	width: 120px; /* ie5win fudge ends */
+	}
+#middle {
+	margin: 20px 190px 20px 190px;
+	padding: 10px;
+	border: 5px solid #666;
+	background: #FFF;
+	}
+#right {
+	position: absolute;
+	top: 0px;
+	right: 0px; /* Opera5.02 will show a space 
+	at right when there is no scroll bar */
+	margin: 20px;
+	padding: 10px;
+	border: 5px solid #666;
+	background: #FFF;
+	width: 150px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 120px;
+	}
+html>body right {
+	width: 120px; /* ie5win fudge ends */
+	}
+</pre>
+
+<div align="right"><p><a href="css/03_3column.css">[本页完整 css]</a></p></div>
+
+</div>
+
+<div id="right">
+
+<p>right</p>
+
+</div>
+
+</body>
+</html>
+

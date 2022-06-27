@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>视频</title>
+</head>
+<body>
+    不会自动播放的
+    <br>
+    <video src="MV.mp4" height="250"></video>
+    <br>
+    <br>
+    自动播放(muted静音)↓(此行极易造成显卡崩溃，已注释掉)
+    <br>
+    <video src="MV.mp4" height="250" autoplay muted></video>
+    <br>
+    -----------------------------------
+    <br>
+    <br>
+    带控制栏的视频
+    <br>
+    <video src="MV.mp4" height="250" controls></video>
+    <br>
+    <br>
+    <h1>Preload预先载入视频(告诉浏览器加载完video元素之后，是否下载视频，分别有三个属性值)</h1>
+    <br>
+    Auto下载整个视频，默认值，可不写
+    <br>
+    <video src="MV.mp4" height="250" controls preload="auto"></video>
+    <br>
+    <br>
+    Metedate只载入第一帧
+    <br>
+    <video src="MV.mp4" height="250" controls preload="metadata"></video>
+    <br>
+    <br>
+    None不会载入
+    <br>
+    <video src="MV.mp4" height="250" controls preload="none"></video>
+    <br>
+    <br>
+    带封面的视频
+    <br>
+    <video src="MV.mp4" height="250" controls preload="metadata" poster="大神教会.png"></video>
+    <br>
+    <br>
+    多视频源
+    <br>
+    <video src="MV.mp4" height="250" controls preload="metadata">
+        <!-- <source src="MV.mp4" type="video/mp4">上方video标签中存在的格式不用写，若上方没有写src， -->
+        <source src="MV.ogg" type="video/ogg"><!-- 当上方视频资源无法播放时会自动跳转到下一个资源 -->
+        <!-- 设置多个格式视频资源用于兼容老版浏览器 -->
+    </video>
+    <br>
+    <br>
+    多音频源
+    <br>
+    <audio src="song.mp3"  controls>
+        <!-- <source src="song.mp3" type="audio/mpeg">上方audio标签中存在的格式不用写，若上方没有写src， -->
+        <source src="song.ogg" type="audio/ogg"><!-- 当上方视频资源无法播放时会自动跳转到下一个资源 -->
+        <source src="song.wav" type="audio/wav"><!-- 设置多个格式视频资源用于兼容老版浏览器 -->
+    </audio>
+</body>
+</html>
